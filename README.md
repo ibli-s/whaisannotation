@@ -1,20 +1,31 @@
-# whaisannotation
-trying out annotation for internship
-Annotation Practice Set
- Project Overview
-This project involves annotating street images by labeling vehicles, pedestrians, signboards, traffic lights, and lane markings using Makesense.ai. The labeled dataset is aimed to support training of YOLO models to improve object detection in edge-case traffic scenarios.
+Traffic Annotation Practice – Indian Urban Dataset
 
-Tools Used
-- Makesense.ai for image annotation (no install needed)
-- YOLO annotation format for compatibility with popular object detection models
+A small image annotation project using [makesense.ai](https://www.makesense.ai/) to label objects commonly found in Indian road traffic scenes.  
+Built to practice object recognition labeling formats for real-world CV projects.
 
- What I did
-- Collected 5 diverse street images showing various road elements.
-- Annotated each image carefully to labels.
-- Exported labels in YOLO format for machine learning applications.
+Why I Built This
 
- Skills Demonstrated
-- Visual data annotation and dataset creation
-- Understanding of object detection pipeline preparation
-- Attention to detail in labeling edge-case scenarios
+I wanted to understand how visual datasets are prepared for training object detection models. This practice set helped me learn:
+- How to use annotation tools
+- How to label multiple object types consistently
+- How to export in YOLO format
+
+ 🛠 How to Try It Yourself
+
+1. Go to [makesense.ai](https://www.makesense.ai/)
+2. Upload your own traffic images (or use sample images)
+3. Use bounding boxes / polygon to label objects such as:
+   - Car
+   - Bike
+   - Traffic Light
+   - Pedestrian
+4. Export the annotations in YOLO/format
+
+
+🧰 Tools Used
+
+- Makesense.ai (Online annotation tool)
+- YOLO (You Only Look Once) annotation format
+- Indian traffic scene images (sample set)
+
 
